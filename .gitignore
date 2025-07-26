@@ -1,0 +1,75 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+.vs/
+*.user
+*.suo
+
+## Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+
+## Uncomment if you have tasks in `Task Runner Explorer`
+# .taskrunner.json
+
+## MSTest test Results
+TestResults/
+*.trx
+
+## NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+## Build config
+*.builds
+
+## Rider
+.idea/
+
+## VS Code
+.vscode/
+.history/
+
+## Local app settings (optional: if secrets are stored here)
+appsettings.Development.json
+appsettings.Local.json
+
+## dotnet specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+## Mac and Linux file system files
+.DS_Store
+*.swp
+*.swo
+
+## Azure
+.publish/
+*.azurePubxml
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## Docker
+**/*.dockerfile
+docker-compose.override.yml
+.env
+
+## Logs
+*.log
+
+## Worker-specific files (if any custom ones)
+logs/
